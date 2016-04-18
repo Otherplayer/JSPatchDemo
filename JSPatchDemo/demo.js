@@ -1,7 +1,14 @@
 defineClass('JPViewController', {
   handleBtn: function(sender) {
-    var tableViewCtrl = JPTableViewController.alloc().init()
-    self.navigationController().pushViewController_animated(tableViewCtrl, YES)
+            
+            var alertView = require('HYQAlertView').alloc().initWithTitle_message_delegate_cancelButtonTitle_otherButtonTitles("测试------", null, null, "Cancel", "OK", null)
+            alertView.handlerClickedButton(block('NSInteger', function(btnIndex) {
+//                                                 NSLog("Did Click Index %", (btnIndex));
+                                                 }))
+            alertView.show()
+            
+//    var tableViewCtrl = JPTableViewController.alloc().init()
+//    self.navigationController().pushViewController_animated(tableViewCtrl, YES)
   }
 })
 

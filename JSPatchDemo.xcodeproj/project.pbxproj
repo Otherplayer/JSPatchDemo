@@ -44,6 +44,7 @@
 		84626B791CC4C690000B2141 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 84626B661CC4C690000B2141 /* JSPatch.js */; };
 		84626B7E1CC4C6F6000B2141 /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84626B7D1CC4C6F6000B2141 /* JPViewController.m */; };
 		84626B801CC4C944000B2141 /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 84626B7F1CC4C944000B2141 /* demo.js */; };
+		84626B831CC4CBE3000B2141 /* HYQAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84626B821CC4CBE3000B2141 /* HYQAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +116,8 @@
 		84626B7C1CC4C6F6000B2141 /* JPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
 		84626B7D1CC4C6F6000B2141 /* JPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
 		84626B7F1CC4C944000B2141 /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
+		84626B811CC4CBE3000B2141 /* HYQAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQAlertView.h; sourceTree = "<group>"; };
+		84626B821CC4CBE3000B2141 /* HYQAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +176,8 @@
 		84626B071CC4C581000B2141 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84626B811CC4CBE3000B2141 /* HYQAlertView.h */,
+				84626B821CC4CBE3000B2141 /* HYQAlertView.m */,
 				84626B081CC4C581000B2141 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -391,6 +396,7 @@
 				84626B701CC4C690000B2141 /* JPLocker.m in Sources */,
 				84626B3B1CC4C684000B2141 /* RSA.m in Sources */,
 				84626B6F1CC4C690000B2141 /* JPCleaner.m in Sources */,
+				84626B831CC4CBE3000B2141 /* HYQAlertView.m in Sources */,
 				84626B091CC4C581000B2141 /* main.m in Sources */,
 				84626B371CC4C684000B2141 /* ioapi.c in Sources */,
 				84626B761CC4C690000B2141 /* JPUIImage.m in Sources */,
@@ -506,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSPatchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fqah.JSPatchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,6 +524,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSPatchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fqah.JSPatchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

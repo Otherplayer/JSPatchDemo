@@ -9,6 +9,7 @@
 //
 
 #import "JPViewController.h"
+//#import "HYQAlertView.h"
 
 @interface JPViewController ()
 
@@ -29,6 +30,11 @@
 
 - (void)handleBtn:(id)sender
 {
+//    HYQAlertView *alertView = [[HYQAlertView alloc] initWithTitle:@"测试------" message:nil delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+//    [alertView handlerClickedButton:^(NSInteger btnIndex) {
+//        NSLog(@"Did Click Index %@",@(btnIndex));
+//    }];
+//    [alertView show];
     
 }
 
