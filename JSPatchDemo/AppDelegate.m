@@ -26,7 +26,8 @@
     NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
     [JPEngine evaluateScript:script];
     
-    
+    //1.下载js代码，保存到本地
+    //2.执行js代码
     
     
     

@@ -6,7 +6,7 @@
 //
 //  Created by __无邪_ on 4/18/16.
 //  Copyright © 2016 fqah. All rights reserved.
-//
+//  http://bang590.github.io/JSPatchConvertor/
 
 #import "JPViewController.h"
 #import "HYQAlertView.h"
@@ -53,13 +53,13 @@
 }
 
 #pragma mark - UITableViewDelegate
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-//    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-//    [cell setSelected:NO];
-//    
-//    
-////    [self handleBtn:nil];
-//}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    [cell setSelected:NO];
+    
+    
+//    [self handleBtn:nil];
+}
 
 #pragma mark - UITableViewDataSource
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
