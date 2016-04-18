@@ -53,13 +53,13 @@
 }
 
 #pragma mark - UITableViewDelegate
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-    [cell setSelected:NO];
-    
-    
-//    [self handleBtn:nil];
-}
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+//    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+//    [cell setSelected:NO];
+//    
+//    
+////    [self handleBtn:nil];
+//}
 
 #pragma mark - UITableViewDataSource
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{

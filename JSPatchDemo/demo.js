@@ -22,4 +22,7 @@ defineClass('JPViewController', {
             
             self.handleBtn(null);
             },
+            tableView_heightForRowAtIndexPath: function(tableView, indexPath) {
+            return 100;
+            }
 });
